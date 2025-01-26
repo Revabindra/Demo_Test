@@ -25,3 +25,14 @@ function b(){
     var x=100;
     console.log(x);
 }
+
+//shortest js program - no code (window)
+
+var a=10;         //global space outside function
+function c(){
+    var b=10;
+}
+console.log(a);
+//onsole.log(b);    // not defined
+//console.log(window.a);
+console.log(this.a);  
