@@ -2,6 +2,10 @@
 console.log(x);
 var x=7;
 
+const x=9;    //more strict than other two
+let x=7;      //more strict than var and can't be reused again 
+var x=10;      //less strict than let and can be declared again 
+
 const id= 123
 let name="reva kaur"
 var password="12345"
