@@ -36,3 +36,5 @@ console.log(a);
 //onsole.log(b);    // not defined
 //console.log(window.a);
 console.log(this.a);  
+
+
